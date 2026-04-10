@@ -1,0 +1,386 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Apr  3 14:44:15 2026
+# Process ID         : 262881
+# Current directory  : /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado
+# Command line       : vivado
+# Log file           : /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/vivado.log
+# Journal file       : /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/vivado.jou
+# Running On         : ky-cds-semi
+# Platform           : RedHatEnterprise
+# Operating System   : Red Hat Enterprise Linux release 8.1 (Ootpa)
+# Processor Detail   : Intel(R) Xeon(R) Silver 4316 CPU @ 2.30GHz
+# CPU Frequency      : 2800.000 MHz
+# CPU Physical cores : 40
+# CPU Logical cores  : 80
+# Host memory        : 540214 MB
+# Swap memory        : 34359 MB
+# Total Virtual      : 574573 MB
+# Available Virtual  : 376586 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+create_project SN74LS11 /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11 -part xc7z020clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'.
+set_property board_part digilentinc.com:zybo-z7-20:part0:1.1 [current_project]
+file mkdir /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new
+close [ open /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v w ]
+add_files /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v
+close [ open /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v w ]
+add_files /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+close [ open {/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND 3X1.v} w ]
+add_files {{/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND 3X1.v}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+update_compile_order -fileset sources_1
+remove_files  {{/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND 3X1.v}}
+file mkdir /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v w ]
+add_files -fileset sim_1 /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v w ]
+add_files -fileset sim_1 /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:]
+synth_design -top SN74LS11 -part xc7z020clg400-1 -lint 
+Command: synth_design -top SN74LS11 -part xc7z020clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 270238
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 8762.289 ; gain = 375.125 ; free physical = 303454 ; free virtual = 357006
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'SN74LS11' [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:3]
+INFO: [Synth 8-6157] synthesizing module 'AND3X1' [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'AND3X1' (1#1) [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'SN74LS11' (2#1) [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:3]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8848.781 ; gain = 461.617 ; free physical = 303357 ; free virtual = 356909
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Fri Apr  3 14:54:01 2026
+| Host         : ky-cds-semi running 64-bit Red Hat Enterprise Linux release 8.1 (Ootpa)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++---------+----------+--------------+----------+
+| Rule ID | Severity | # Violations | # Waived |
++---------+----------+--------------+----------+
+
+
+INFO: [Synth 37-85] Total of 0 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8863.625 ; gain = 476.461 ; free physical = 303347 ; free virtual = 356899
+INFO: [Common 17-83] Releasing license: Synthesis
+11 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8863.633 ; gain = 476.469 ; free physical = 303339 ; free virtual = 356891
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2155.256; main = 1812.613; forked = 342.643
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 9799.105; main = 8863.629; forked = 935.477
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z020clg400-1
+Top: SN74LS11
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 8931.734 ; gain = 67.844 ; free physical = 303253 ; free virtual = 356805
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SN74LS11' [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:3]
+INFO: [Synth 8-6157] synthesizing module 'AND3X1' [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'AND3X1' (0#1) [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'SN74LS11' (0#1) [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 9011.703 ; gain = 147.812 ; free physical = 303170 ; free virtual = 356722
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 9020.609 ; gain = 156.719 ; free physical = 303164 ; free virtual = 356716
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 9020.609 ; gain = 156.719 ; free physical = 303164 ; free virtual = 356716
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9020.617 ; gain = 0.000 ; free physical = 303164 ; free virtual = 356716
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9084.477 ; gain = 0.000 ; free physical = 303313 ; free virtual = 356865
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 9338.359 ; gain = 474.469 ; free physical = 303063 ; free virtual = 356615
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:13 . Memory (MB): peak = 9338.359 ; gain = 474.727 ; free physical = 303063 ; free virtual = 356615
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2403.243; main = 2403.243; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 9338.363; main = 9338.363; forked = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_sn74ls11'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_sn74ls11' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj tb_sn74ls11_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/AND3X1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND3X1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sources_1/new/SN74LS11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SN74LS11
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_sn74ls11
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sn74ls11_behav xil_defaultlib.tb_sn74ls11 xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_sn74ls11_behav xil_defaultlib.tb_sn74ls11 xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2989] 'sn74ls11' is not declared [/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/tb_sn74ls11.v:18]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+export_ip_user_files -of_objects  [get_files /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.srcs/sim_1/new/AND3X1.v
+launch_runs synth_1 -jobs 40
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Fri Apr  3 14:58:27 2026] Launched synth_1...
+Run output will be captured here: /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 40
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Fri Apr  3 14:58:44 2026] Launched synth_1...
+Run output will be captured here: /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.runs/synth_1/runme.log
+reset_run synth_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr  3 14:59:01 2026...

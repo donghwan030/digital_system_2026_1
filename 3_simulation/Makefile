@@ -16,7 +16,8 @@ set:
 
 compile:
 	echo "----------Compile source files----------"
-	xmvlog -MESS -linedebug ./*.v
+	xmvlog -MESS -linedebug ./
+	.*.v
 	echo "----------End of compilation----------"
 
 elab: 

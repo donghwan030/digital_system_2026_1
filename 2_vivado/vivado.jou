@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Apr  3 15:03:49 2026
+# Process ID         : 287464
+# Current directory  : /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado
+# Command line       : vivado
+# Log file           : /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/vivado.log
+# Journal file       : /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/vivado.jou
+# Running On         : ky-cds-semi
+# Platform           : RedHatEnterprise
+# Operating System   : Red Hat Enterprise Linux release 8.1 (Ootpa)
+# Processor Detail   : Intel(R) Xeon(R) Silver 4316 CPU @ 2.30GHz
+# CPU Frequency      : 2800.000 MHz
+# CPU Physical cores : 40
+# CPU Logical cores  : 80
+# Host memory        : 540214 MB
+# Swap memory        : 34359 MB
+# Total Virtual      : 574573 MB
+# Available Virtual  : 374983 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home_cds/std012/digital_system_2026_1/digital_system_2026_1/2_vivado/SN74LS11/SN74LS11.xpr
+update_compile_order -fileset sources_1
