@@ -1,0 +1,94 @@
+*** Message Type: info ***
+When: Fri Apr 10 01:19:28 PM KST 2026
+SimVision started.
+Version: TOOL:  simvision(64)   24.03-s010
+User: std012
+Host: localhost
+Platform: Linux/x86_64/4.18.0-147.el8.x86_64
+Started: Fri Apr 10 01:19:28 PM KST 2026
+Command: /tools/cadence/XCELIUMMAIN2403/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:localhost:38993 -64BIT
+Work Directory: /home_cds/std012/digital_system_2026_1/digital_system_2026_1/4_data_flow_model/Lab2
+ 
+*** Message Type: info ***
+When: Fri Apr 10 01:19:28 PM KST 2026
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Fri Apr 10 01:19:30 PM KST 2026
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Fri Apr 10 01:19:32 PM KST 2026
+Connect to Simulator
+      Design: tb_clk_gating
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:      xmsim(64)       24.03-s010
+        User: std012
+        Host: localhost
+Time Started: Fri Apr 10 01:19:27 PM KST 2026
+  Process ID: 1628909
+   Directory: /home_cds/std012/digital_system_2026_1/digital_system_2026_1/4_data_flow_model/Lab2
+     Command: xmsim -MESS tb_clk_gating -gui
+
+ 
+*** Message Type: info ***
+When: Fri Apr 10 01:19:32 PM KST 2026
+Create utility window: "Properties"
+ 
+*** Message Type: error ***
+When: Fri Apr 10 01:24:20 PM KST 2026
+window name "sv_getNewName" already exists in parent
+    while executing
+"toplevel $path -relief raised -borderwidth 1 -background $bg"
+    (procedure "Dialog::create" line 8)
+    invoked from within
+"Dialog::create .sv_getNewName -modal local -default 0 -cancel 1 -parent .watchList0 -title {Rename Window}"
+    ("eval" body line 1)
+    invoked from within
+"eval Dialog::create $path $args"
+    (procedure "Dialog" line 1)
+    invoked from within
+"Dialog .sv_getNewName -modal local -default 0 -cancel 1 -parent .watchList0 -title {Rename Window}"
+    ("eval" body line 1)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "sv_getNewName" line 1)
+    invoked from within
+"sv_getNewName -oldvalue $oldName -title "Rename Window"  -parent [namespace tail $this] -newname """
+    (object "::.watchList0" method "::SVToolWindow::_doRenameWindow" body line 4)
+    invoked from within
+"::.watchList0 _doRenameWindow"
+    (in namespace inscope "::SVToolWindow" script line 1)
+    invoked from within
+"namespace inscope ::SVToolWindow {::.watchList0 _doRenameWindow}"
+    invoked from within
+".watchList0.menubar.file.mb.menu invoke active"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke active]"
+    (procedure "tk::MenuInvoke" line 50)
+    invoked from within
+"tk::MenuInvoke .watchList0.menubar.file.mb.menu 1"
+    (command bound to event)
+ 
+*** Message Type: info ***
+When: Fri Apr 10 01:24:28 PM KST 2026
+Exit XM-Sim: user
+      Design: tb_clk_gating
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:      xmsim(64)       24.03-s010
+        User: std012
+        Host: localhost
+Time Started: Fri Apr 10 01:19:27 PM KST 2026
+  Process ID: 1628909
+   Directory: /home_cds/std012/digital_system_2026_1/digital_system_2026_1/4_data_flow_model/Lab2
+     Command: xmsim -MESS tb_clk_gating -gui
+
+ 
+*** Message Type: info ***
+When: Fri Apr 10 01:24:28 PM KST 2026
+SimVision Exit.
+ 
