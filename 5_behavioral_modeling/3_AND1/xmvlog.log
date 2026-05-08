@@ -1,0 +1,15 @@
+xmvlog(64): 24.03-s010: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	24.03-s010: Started on May 08, 2026 at 14:24:02 KST
+xmvlog
+    -MESS
+    -linedebug
+    ./ander.v
+    ./tb_ander.v
+
+file: ./ander.v
+	module work_lib.ander
+		errors: 0, warnings: 0
+file: ./tb_ander.v
+	module work_lib.tb_ander
+		errors: 0, warnings: 0
+TOOL:	xmvlog(64)	24.03-s010: Exiting on May 08, 2026 at 14:24:02 KST  (total: 00:00:00)
