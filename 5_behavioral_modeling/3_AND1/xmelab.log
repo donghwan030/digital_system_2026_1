@@ -1,5 +1,5 @@
 xmelab(64): 24.03-s010: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
-TOOL:	xmelab(64)	24.03-s010: Started on May 08, 2026 at 14:24:02 KST
+TOOL:	xmelab(64)	24.03-s010: Started on May 08, 2026 at 15:48:54 KST
 xmelab
     -MESS
     -access rwc
@@ -25,4 +25,4 @@ xmelab
 		Pseudo assignments:      2       -
 		Simulation timescale:  1ps
 	Writing initial simulation snapshot: work_lib.tb_ander:module
-TOOL:	xmelab(64)	24.03-s010: Exiting on May 08, 2026 at 14:24:02 KST  (total: 00:00:00)
+TOOL:	xmelab(64)	24.03-s010: Exiting on May 08, 2026 at 15:48:54 KST  (total: 00:00:00)

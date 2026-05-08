@@ -1,0 +1,28 @@
+xmelab(64): 24.03-s010: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmelab(64)	24.03-s010: Started on May 08, 2026 at 16:11:46 KST
+xmelab
+    -MESS
+    -access rwc
+    tb_orer_ff
+
+	Elaborating the design hierarchy:
+		Caching library 'work_lib' ....... Done
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		work_lib.orer_ff:module <0x61af3b8e>
+			streams:   1, words:   489
+		work_lib.tb_orer_ff:module <0x095ce9f6>
+			streams:   7, words: 10481
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:               4       4
+		Scalar wires:            4       -
+		Always blocks:           2       2
+		Initial blocks:          2       2
+		Pseudo assignments:      3       -
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: work_lib.tb_orer_ff:module
+TOOL:	xmelab(64)	24.03-s010: Exiting on May 08, 2026 at 16:11:46 KST  (total: 00:00:00)

@@ -1,0 +1,30 @@
+xmsim(64): 24.03-s010: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmsim(64)	24.03-s010: Started on May 08, 2026 at 16:11:46 KST
+xmsim
+    -MESS
+    tb_orer_ff
+    -gui
+
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm tb_orer_ff.clk tb_orer_ff.in1 tb_orer_ff.in2 tb_orer_ff.out
+Created probe 1
+xcelium> run
+Time=0 | in1=0, in2=0 | clk=0 | out=x
+Time=10000 | in1=0, in2=0 | clk=1 | out=0
+Time=20000 | in1=0, in2=1 | clk=0 | out=0
+Time=30000 | in1=0, in2=1 | clk=1 | out=1
+Time=40000 | in1=1, in2=0 | clk=0 | out=1
+Time=50000 | in1=1, in2=0 | clk=1 | out=1
+Time=60000 | in1=1, in2=1 | clk=0 | out=1
+Time=70000 | in1=1, in2=1 | clk=1 | out=1
+Simulation complete via $finish(1) at time 80 NS + 0
+./tb_orer_ff.v:28 	       	$finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xmsim(64)	24.03-s010: Exiting on May 08, 2026 at 16:12:27 KST  (total: 00:00:41)

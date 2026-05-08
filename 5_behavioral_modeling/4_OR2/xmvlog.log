@@ -1,0 +1,15 @@
+xmvlog(64): 24.03-s010: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	24.03-s010: Started on May 08, 2026 at 16:11:46 KST
+xmvlog
+    -MESS
+    -linedebug
+    ./orer_ff.v
+    ./tb_orer_ff.v
+
+file: ./orer_ff.v
+	module work_lib.orer_ff
+		errors: 0, warnings: 0
+file: ./tb_orer_ff.v
+	module work_lib.tb_orer_ff
+		errors: 0, warnings: 0
+TOOL:	xmvlog(64)	24.03-s010: Exiting on May 08, 2026 at 16:11:46 KST  (total: 00:00:00)
