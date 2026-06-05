@@ -1,0 +1,165 @@
+
+#
+# Preferences
+#
+preferences set toolbar-Standard-WatchWindow {
+  usual
+  shown 0
+}
+preferences set plugin-enable-svdatabrowser-new 1
+preferences set cursorctl-dont-show-sync-warning 1
+preferences set toolbar-Windows-WatchWindow {
+  usual
+  shown 0
+}
+preferences set plugin-enable-groupscope 0
+preferences set plugin-enable-interleaveandcompare 0
+preferences set plugin-enable-waveformfrequencyplot 0
+preferences set toolbar-SimControl-WatchWindow {
+  usual
+  shown 0
+}
+preferences set toolbar-TimeSearch-WatchWindow {
+  usual
+  shown 0
+}
+
+#
+# Mnemonic Maps
+#
+mmap new  -reuse -name {Boolean as Logic} -radix %b -contents {{%c=FALSE -edgepriority 1 -shape low}
+{%c=TRUE -edgepriority 1 -shape high}}
+mmap new  -reuse -name {Example Map} -radix %x -contents {{%b=11???? -bgcolor orange -label REG:%x -linecolor yellow -shape bus}
+{%x=1F -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=2C -bgcolor red -label ERROR -linecolor white -shape EVENT}
+{%x=* -label %x -linecolor gray -shape bus}}
+
+#
+# Design Browser windows
+#
+if {[catch {window new WatchList -name "Design Browser 1" -geometry 1920x1009+0+23}] != ""} {
+    window geometry "Design Browser 1" 1920x1009+0+23
+}
+window target "Design Browser 1" on
+browser using {Design Browser 1}
+browser set -scope  simulator::half_adder 
+browser set \
+    -signalsort name
+browser yview see  simulator::half_adder 
+browser timecontrol set -lock 0
+
+#
+# Source Browser windows
+#
+if {[catch {window new SrcBrowser -name "Source Browser 1" -geometry 958x1000+961+31}] != ""} {
+    window geometry "Source Browser 1" 958x1000+961+31
+}
+window target "Source Browser 1" on
+srcbrowser using {Source Browser 1}
+srcbrowser set \
+    -primarycursor TimeA \
+    -units ns \
+    -radix default \
+    -showstrength 0 \
+    -showcallstack 0 \
+    -displayvalues 0
+
+srcbrowser show -scope half_adder -file /home_cds/std012/digital_system_2026_1/digital_system_2026_1/8_module/2_adder/half_adder.v -line 1
+
+srcbrowser sidebar visibility partial
+
+#
+# Schematic Tracer windows
+#
+if {[catch {window new SchematicWindow -name "Schematic Tracer 1" -geometry 958x1000+1+31}] != ""} {
+    window geometry "Schematic Tracer 1" 958x1000+1+31
+}
+window target "Schematic Tracer 1" on
+schematic using "Schematic Tracer 1"
+schematic sidebar visibility partial
+schematic set \
+    -radix default \
+    -fullsignalname 0 \
+    -showvalue 1 \
+    -showstrength 0 \
+    -showgrey 0 \
+    -tracemode Single \
+    -showrtl 1 \
+    -showcells 1 \
+    -showcellpins 0
+schematic timecontrol set -lock 0
+schematic restore -state {# String saved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=TK:8.4 tclcompat
+#  -string
+# non-default properties - (restore without -noprops)
+property -colorscheme classic
+property attrcolor #40e0d0
+property attrfontsize 10
+property boxmaxwidth 400
+property boxmingap 40
+property boxminheight 40
+property boxminwidth 100
+property buscolor #00ff00
+property createnetattrdsp 2
+property fillcolor1 #000000
+property fillcolor2 #000000
+property gatecellname 1
+property netcolor #00ff00
+property objecthighlight0 #ff00aa
+property objecthighlight1 #ff00aa
+property objecthighlight2 #00ff00
+property objecthighlight3 #ffff00
+property objecthighlight9 #ffffaf
+property pinattrmax 200
+property selectionappearance 2
+property selectioncolor #ffffaf
+property sheetheight 0
+property sheetwidth 0
+property showhierpinname 1
+property showinvisibles 1
+property showmarks 1
+property showpgtype 1
+#
+module new module {}
+load symbol DAI_SOURCE_IN {} DEF port 0 input -loc -14 0 0 0 pinattrdsp @name -cr -2 -5 8i attrdsp @cell -ll -10 16 10 path 0 -6 9 -6 12 -3 12 6 0 6 0 -6 path 12 -3 9 -3 9 -6 path 2 -3 6 -3 path 2 0 10 0 path 2 3 10 3
+load symbol DAI_SOURCE_OUT {} DEF port 0 output -loc 26 0 12 0 pinattrdsp @name -cl 30 -5 8i attrdsp @cell -ll -10 16 10 path 0 -6 9 -6 12 -3 12 6 0 6 0 -6 path 12 -3 9 -3 9 -6 path 2 -3 6 -3 path 2 0 10 0 path 2 3 10 3
+#
+module new root {} -nosplit -symlib /tools/cadence/XCELIUMMAIN2403/tools/dvgui/ams/symlib/analogLib.sym
+load symbol {half_adder worklib(module)} {} HIERBOX pin 0 input.left pin 1 input.left pin 2 output.right pin 3 output.right fillcolor 2
+load symbol xor_0 {} XOR pin 0 output pin 1 input pin 2 input fillcolor 1 attrdsp @name -ll 2 -16 12
+load symbol nand_1 {} NAND pin 0 output pin 1 input pin 2 input fillcolor 1 attrdsp @name -ll 2 -16 12
+load symbol invif0_2 {} INVIF0 pin 0 output pin 1 input fillcolor 1 attrdsp @name -ll 2 -14 12
+load inst simulator::half_adder {half_adder worklib(module)} {} -attr @color #00ffff -pinAttr 0 @name {} -pinAttr 1 @name {} -pinAttr 2 @name {} -pinAttr 3 @name {} -hierPinAttr 0 @name a -hierPinAttr 1 @name b -hierPinAttr 2 @name sum -hierPinAttr 3 @name cout -pg 1 -lvl 1 -x 30 -y 30
+load inst simulator::half_adder,U0 xor_0 {} -hier simulator::half_adder -attr @name U0 -attr @color #00ffff -pinAttr 0 @name sum=x -pinAttr 0 @color #ff0000 -pinAttr 1 @name a=z -pinAttr 2 @name b=z -pg 1 -lvl 2 -x 310 -y 60
+load inst simulator::half_adder,nand_0 nand_1 {} -hier simulator::half_adder -attr @name nand_0 -attr @color #00ffff -pinAttr 0 @name cout_bar=x -pinAttr 0 @color #ff0000 -pinAttr 1 @name a=z -pinAttr 2 @name b=z -pg 1 -lvl 1 -x 120 -y 120
+load inst simulator::half_adder,not_1 invif0_2 {} -hier simulator::half_adder -attr @name not_1 -attr @color #00ffff -pinAttr 0 @name cout=x -pinAttr 0 @color #ff0000 -pinAttr 1 @name cout_bar=x -pinAttr 1 @color #ff0000 -pg 1 -lvl 2 -x 310 -y 120
+load net simulator::half_adder,a -attr @name a -attr @color #666666.1 -hierPin simulator::half_adder 0 -pin simulator::half_adder,U0 1 -pin simulator::half_adder,nand_0 1
+netloc simulator::half_adder,a 1 0 2 80 50 NJ
+load net simulator::half_adder,b -attr @name b -attr @color #666666.1 -hierPin simulator::half_adder 1 -pin simulator::half_adder,U0 2 -pin simulator::half_adder,nand_0 2
+netloc simulator::half_adder,b 1 0 2 60 70 NJ
+load net simulator::half_adder,sum -attr @name sum -attr @color #666666.1 -hierPin simulator::half_adder 2 -pin simulator::half_adder,U0 0
+netloc simulator::half_adder,sum 1 2 1 NJ 60
+load net simulator::half_adder,cout -attr @name cout -attr @color #666666.1 -hierPin simulator::half_adder 3 -pin simulator::half_adder,not_1 0
+netloc simulator::half_adder,cout 1 2 1 NJ 120
+load net simulator::half_adder,cout_bar -attr @name cout_bar -attr @color #666666.1 -pin simulator::half_adder,nand_0 0 -pin simulator::half_adder,not_1 1
+netloc simulator::half_adder,cout_bar 1 1 1 NJ 120
+levelinfo -pg 1 0 30 450
+levelinfo -hier simulator::half_adder * 120 310 *
+pagesize -pg 1 -db -bbox -sgen 0 0 450 180
+pagesize -hier simulator::half_adder -db -bbox -sgen 30 20 430 160
+show
+zoom 2.19286
+scrollpos 44 -228
+#
+# initialize ictrl to current module root {}
+ictrl init -bulk {} ,
+}
+
+#
+# Console windows
+#
+console set -windowname Console
+window geometry Console 730x250+261+564
+
+#
+# Layout selection
+#
